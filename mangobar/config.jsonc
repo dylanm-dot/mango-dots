@@ -1,0 +1,19 @@
+{
+    "layer": "top",
+    "modules-left": ["workspaces"],
+    "modules-center": ["window"],
+    "modules-right": ["tray", "clock#time"],
+
+    "window": {
+	"max-length": 180
+    },
+
+    "clock": {
+	"format": "%I:%M"
+    },
+    
+    "tray": {
+	"icon-size": 15,
+	"spacing": 2
+    }
+}

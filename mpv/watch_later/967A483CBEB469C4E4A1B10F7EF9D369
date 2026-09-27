@@ -1,0 +1,2 @@
+af=%405%@firequalizer15:lavfi=graph=%372%firequalizer = wfunc      = tukey:delay      = 0.028:scale      = linlog:zero_phase = on:gain_entry = 'entry(0,0.0);entry(1,0.0);entry(2,0.0);entry(3,0.0);entry(4,0.0);entry(5,0.0);entry(6,0.0);entry(7,0.0);entry(8,0.0);entry(9,0.0);entry(10,0.0);entry(11,0.0);entry(12,0.0);entry(13,0.0);entry(14,0.0)':gain       = 'cubic_interpolate(2.8853900817779269*log(f/157.48+1))'
+sub-ass-override=no

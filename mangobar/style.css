@@ -1,0 +1,25 @@
+* {
+    border-radius: 0px;
+    padding: 0px;
+    font-family: "JetBrains Mono";
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #000000;
+    color: #ffffff
+}
+
+#clock {
+    padding-right: 5px;
+}
+
+#tags {
+    color: #848AA3;
+}
+
+#tags.active {
+    color: #ffffff;
+}
+
+#tray {
+    padding-right: 5px;    
+}
