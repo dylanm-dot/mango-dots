@@ -4,8 +4,8 @@
 }
 
 window {
-    height: 380;
-    width: 600;
+    height: 400;
+    width: 450;
     border: 0;
     border-radius: 0;
 }
@@ -25,6 +25,7 @@ inputbar {
 listview {
     border: 0;
     background-color: #1C1C1F;
+    padding: 10px;
     dynamic: false;
 }
 
@@ -41,12 +42,14 @@ element {
 }
 
 element-text.selected.normal, element-icon.selected.normal, element.selected.normal {
-    background-color: #000000;
+    background-color: #202024;
 }
 
 element-text, element-icon {
     size: 32;
+    margin: 5px;
     color: #ffffff;
     background-color: #1C1C1F;
     vertical-align: 0.5;
 }
+

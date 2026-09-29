@@ -2,6 +2,7 @@ configuration {
     show-icons: true;
     font: "JetBrains Mono 12";
     icon-theme: "Papirus-Dark";
+    display-drun: "";
 }
 
 @theme "theme"
