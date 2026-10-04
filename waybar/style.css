@@ -1,0 +1,50 @@
+@define-color bg rgba(13, 27, 45, 0.92);
+@define-color fg #c4d5e8;
+@define-color blue #78a9d6;
+
+* {
+    border: none;
+    background: @bg;
+    color: @fg;
+
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-weight: bold;
+}
+
+/* Workspaces */
+#workspaces button {
+    padding: 0 7px;
+    color: #8298ad;
+    background: transparent;
+}
+
+#workspaces button.active {
+    color: #d2e1ef;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 2px solid @blue;
+}
+
+/* Right side */
+.modules-right {
+    padding-right: 10px;
+}
+
+#pulseaudio {
+    padding-right: 10px;
+}
+
+#custom-tray-toggle {
+    padding: 0 8px;
+}
+
+#tray {
+    padding: 0 8px;
+}
+
+/* Subtle hover */
+#workspaces button:hover {
+    color: #d2e1ef;
+    background: rgba(120, 169, 214, 0.08);
+}
+

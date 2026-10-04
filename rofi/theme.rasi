@@ -1,55 +1,58 @@
 * {
-    color: #A9B1D6;
-    background-color: #1A1B26;
+    color: #C4D5E8;
+    background-color: #0D1B2D;
 }
 
 window {
-    height: 400;
-    width: 450;
+    height: 400px;
+    width: 450px;
     border: 0;
     border-radius: 0;
 }
 
 mainbox {
     spacing: 0;
-    background-color: #1A1B26;
-    color: #A9B1D6;
+    background-color: #0D1B2D;
+    color: #C4D5E8;
     children: [inputbar, message, listview];
 }
 
 inputbar {
-    background-color: #1A1B26;
-    padding: 15;
+    background-color: #0D1B2D;
+    padding: 15px;
 }
 
 listview {
     border: 0;
-    background-color: #1A1B26;
+    background-color: #0D1B2D;
     padding: 10px;
     dynamic: false;
 }
 
 prompt {
-    margin: 0 10 0 0;
-    background-color: #1A1B26;
+    margin: 0 10px 0 0;
+    background-color: #0D1B2D;
 }
 
 element {
-    padding: 3;
+    padding: 3px;
     vertical-align: 0.5;
     border-radius: 0;
-    background-color: #1A1B26;
+    background-color: #0D1B2D;
 }
 
-element-text.selected.normal, element-icon.selected.normal, element.selected.normal {
-    background-color: #202330;
+element-text.selected.normal,
+element-icon.selected.normal,
+element.selected.normal {
+    background-color: #162B43;
 }
 
-element-text, element-icon {
-    size: 32;
+element-text,
+element-icon {
+    size: 32px;
     margin: 5px;
-    color: #A9B1D6;
-    background-color: #1A1B26;
+    color: #C4D5E8;
+    background-color: #0D1B2D;
     vertical-align: 0.5;
 }
 
